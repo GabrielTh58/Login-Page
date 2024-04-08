@@ -1,0 +1,42 @@
+@media(max-width: 1450px) {
+    .container .logo{
+        margin-bottom: 80px;
+    }
+}
+
+@media(max-width: 1400px) {
+    .container .content {
+        padding-inline: 70px;
+    }
+
+    .container .content .form .password-input-container .forgot-password-link {
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .container .content {
+        padding-inline: 50px;
+        width: 70%;
+    }
+}
+
+@media(max-width: 630px) {
+    .container .content {
+        width: 85%;
+    }
+}
+
+
+@media(max-width: 490px) {
+    .container .content {
+        width: 100%;
+        margin: 0 auto;
+        padding-inline: 25px;
+    }
+
+    .container .background {
+        display: none;
+    }
+}

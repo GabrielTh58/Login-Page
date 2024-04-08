@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertigo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="300">
+        <section class="content" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
+            <div class="logo">
+                <img src="/src/images/logo.png" alt="logo">
+                <h1>Vertigo</h1>
+            </div>
+
+            <h2>Acesse a Plataforma</h2>
+            <p class="text-login">Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+
+            <div class="form">
+
+                <form>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="inputs" placeholder="Digite seu e-mail">
+                    <p class="required-field-message">* Campo obrigatório</p>
+
+                    <div class="password-input-container">
+                        <div class="password-input-text">
+                            <label for="password">Senha</label>
+                            <a class="forgot-password-link" href="#">Esqueceu a senha?</a>
+                        </div>
+
+                        <div class="password-input-details">
+                            <input type="password" id="password" class="inputs" placeholder="Digite sua senha">
+                            <label for="password" class="password-eye-icon" id="password-toggle"></label>
+                        </div>
+                        <p class="required-field-message">* Campo obrigatório</p>
+                    </div>
+
+
+                    
+                    <button type="submit" class="btn-submit" id="btn-submit">Entrar</button>
+                </form>
+
+                <p>Ainda não tem uma conta? <span class="purple-text-style">Inscreva-se</span></p>
+            </div>
+
+        </section>
+
+        <section class="background"></section>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/src/js/index.js"> </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
