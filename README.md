@@ -1,6 +1,6 @@
 # Projeto: Página de Login Estática
 
-Este é um projeto de uma página de login estática com validação de campos utilizando HTML, CSS, JavaScript e a biblioteca AOS (Animate On Scroll).
+Este é um projeto de uma página de login estática com validação de campos utilizando HTML, CSS, JavaScript e a biblioteca AOS (Animate On Scroll). Este projeto foi desenvolvido como parte de um desafio proposto pela Rocketseat.
 
 ## Funcionalidades
 
@@ -13,8 +13,8 @@ Este é um projeto de uma página de login estática com validação de campos u
 - HTML
 - CSS
 - JavaScript
-- AOS (Animate On Scroll)
+- AOS (Animate On Scroll) 
 
 ## Link do Projeto
 
-Você pode visualizar o projeto aqui: https://gabrielth58.github.io/Login-Page/
+Você pode visualizar o projeto [aqui](https://gabrielth58.github.io/Login-Page/).
