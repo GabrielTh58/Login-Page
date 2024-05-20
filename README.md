@@ -17,4 +17,4 @@ Este é um projeto de uma página de login estática com validação de campos u
 
 ## Link do Projeto
 
-Você pode visualizar o projeto [aqui](https://gabrielth58.github.io/Static-Login-Page/s).
+Você pode visualizar o projeto [aqui](https://gabrielth58.github.io/Static-Login-Page/).
